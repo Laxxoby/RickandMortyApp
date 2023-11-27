@@ -63,13 +63,7 @@ h1 {
     grid-template-columns: repeat(7, 1fr);
     grid-template-rows: repeat(10, 1fr);
     gap: 40px 2%;
-    /*     padding: 12px 12px;
-    border: 2px solid #17172F;
-    border-radius: 10px; */
-    /*     background-image: url(image/font1.png);
-    /* Ajustar la imagen de fondo al tamaño del contenedor */
-    /* background-size: contain; */
-    /* background-color: rgb(100, 56, 181); */
+
 }
 
 .grid-item {
@@ -107,11 +101,6 @@ h1 {
     margin-bottom: 10px;
 }
 
-.box {
-    background-color: rgb(56, 153, 206);
-    padding: 5px;
-}
-
 .word,
 p {
     margin: 0;
@@ -135,11 +124,6 @@ p {
     align-items: center;
 }
 
-.modal.show {
-    display: flex;
-    opacity: 1;
-    /* Cuando se muestra el modal, cambia la opacidad a 1 */
-}
 
 .modal-content {
     display: flex;
@@ -152,13 +136,9 @@ p {
     border: 1px solid rgba(155, 246, 138, 1);
     /* Borde para simular relieve */
     box-shadow: 0 0 2px rgba(155, 246, 138, 0.8),
-        /* Sombra */
         0 0 3px rgba(155, 246, 138, 0.8),
-        /* Sombra */
         0 0 4px rgba(155, 246, 138, 1),
-        /* Sombra más lejana */
         0 0 5px rgba(155, 246, 138, 1),
-        /* Sombra más lejana */
         0 0 6px rgba(155, 246, 138, 1);
     max-width: 90%;
     position: relative;
@@ -199,17 +179,12 @@ p {
     right: 15px;
     font-size: 30px;
     text-shadow: 0 0 1px rgba(155, 246, 138, 0.8),
-        /* Sombra más cercana */
         0 0 2px rgba(155, 246, 138, 0.8),
-        /* Sombra */
         0 0 3px rgba(155, 246, 138, 0.8),
-        /* Sombra */
         0 0 4px rgba(155, 246, 138, 1),
-        /* Sombra más lejana */
         0 0 5px rgba(155, 246, 138, 1),
-        /* Sombra más lejana */
         0 0 6px rgba(155, 246, 138, 1);
-    /* Sombra más lejana */
+
 }
 
 /* Estilos para adaptar el grid a pantallas pequeñas */
@@ -218,4 +193,16 @@ p {
         grid-template-columns: repeat(5, 1fr);
         grid-template-rows: repeat(10, 1fr);
     }
+}
+
+@media screen and (max-width: 600px) {
+    .grid-container {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(10, 1fr);
+        gap: 30px 2.5%;
+    }
+
+    /*     .grid-item {
+wi
+    } */
 }

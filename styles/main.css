@@ -213,3 +213,71 @@ p {
         margin-top: 40px;
     }
 }
+
+@media screen and (max-width: 600px) {
+    .grid-container {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(10, 1fr);
+        gap: 20px 2.5%;
+    }
+
+    .word {
+        font-size: 10px;
+    }
+
+    .imagesiu {
+        height: 100px;
+    }
+    .grid-item {
+        height: 90%;
+    }
+
+    .imagenAmpliada {
+        width: 120px;
+    }
+
+    .info {
+        font-size: 14px;
+        margin-top: 40px;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .grid-container {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(10, 1fr);
+        gap: 8px 2.5%;
+    }
+    
+    h1 {
+        font-size: 30px;
+    }
+    .word {
+        font-size: 7px;
+    }
+
+    .imagesiu {
+        margin: 0;
+        height: 70px;
+    }
+    .grid-item {
+        height: 80%;
+    }
+
+    .imagenAmpliada {
+        width: 100px;
+    }
+
+    .name_modal{
+        font-size: 12px;
+    }
+
+    .info {
+        font-size: 8px;
+        margin-top: 30px;
+    }
+
+    .modal-close {
+        font-size: 15px;
+    }
+}

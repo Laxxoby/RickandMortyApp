@@ -13,13 +13,13 @@ body {
 
     background: #000000;
 
-    background-image: url("images/fondo.png");
+    background-image: url("../images/fondo.jpg");
 }
 
 /* utilizo la font de R&M que encontre gratis por jonizaak y su pagina: https://jonizaak.deviantart.com/ */
 @font-face {
     font-family: 'GetSchwifty';
-    src: url('fonts/get_schwifty.ttf') format('truetype');
+    src: url('../fonts/get_schwifty.ttf') format('truetype');
     /* Otras propiedades opcionales */
     font-weight: normal;
     font-style: normal;

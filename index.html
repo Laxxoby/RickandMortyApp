@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Personajes de Rick and Morty</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arvo&family=Exo+2:ital,wght@0,300;1,200;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles/main.css" type="text/css">
+    <script src="scripts/main.js" defer></script>
+</head>
+
+<body>
+    <h1>Personajes de Rick and Morty</h1>
+    <div class="grid-container" id="grid">
+        <!-- Filas y columnas generadas con JavaScript -->
+    </div>
+
+    <!-- Modal -->
+    <div class="modal" id="modal">
+        <div class="modal-content">
+            <span class="modal-close" onclick="cerrarModal()">&times;</span>
+            <div class="modal-ima-name" id="modal-ima-name">
+                <h3 class="name_modal">Morty Smith</h3>
+                <img src="" alt="Imagen ampliada" class="imagenAmpliada" id="imagenAmpliada">
+            </div>
+            <div class="info" id="info">
+                <p>Estado: </p>
+                <p>Especie: </p>
+                <p>Tipo: </p>
+                <p>Género: </p>
+                <p>Origen: </p>
+                <p>Ubicación: </p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

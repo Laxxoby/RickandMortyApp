@@ -11,12 +11,9 @@ body {
         Helvetica,
         sans-serif;
 
-
-    background-image: url("image/rick-and-morty-looking-at-the-night-sky-tr8wxryct280wstz.jpg");
-    /* background-size: cover  */
-
-    /* Color de fondo */
     background: #000000;
+
+    background-image: url("images/fondo.png");
 }
 
 /* utilizo la font de R&M que encontre gratis por jonizaak y su pagina: https://jonizaak.deviantart.com/ */

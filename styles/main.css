@@ -38,17 +38,11 @@ h1 {
 
     /* Efecto de sombra simulando el efecto neon */
     text-shadow: 0 0 1px rgba(155, 246, 138, 0.8),
-        /* Sombra más cercana */
         0 0 2px rgba(155, 246, 138, 0.8),
-        /* Sombra */
         0 0 3px rgba(155, 246, 138, 0.8),
-        /* Sombra */
         0 0 4px rgba(155, 246, 138, 1),
-        /* Sombra más lejana */
         0 0 5px rgba(155, 246, 138, 1),
-        /* Sombra más lejana */
         0 0 6px rgba(155, 246, 138, 1);
-    /* Sombra más lejana */
     /* Tamaño de la fuente */
     font-size: 42px;
 }
@@ -75,11 +69,8 @@ h1 {
     padding-bottom: 10px;
     background-color: #17172F;
     border: 1px solid rgba(155, 246, 138, 0.5);
-    /* Borde para simular relieve */
     box-shadow: 0 0 5px rgba(155, 246, 138, 0.8);
-    /* Sombra para añadir profundidad */
     box-shadow: 0 0 7px rgba(155, 246, 138, 1);
-    /* Sombra para añadir profundidad */
     transition: transform 0.3s ease-in-out;
     perspective: 800px;
     /* Define la perspectiva del contenedor */
@@ -199,10 +190,26 @@ p {
     .grid-container {
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(10, 1fr);
-        gap: 30px 2.5%;
+        gap: 20px 2.5%;
     }
 
-    /*     .grid-item {
-wi
-    } */
+    .word {
+        font-size: 10px;
+    }
+
+    .imagesiu {
+        height: 100px;
+    }
+    .grid-item {
+        height: 90%;
+    }
+
+    .imagenAmpliada {
+        width: 120px;
+    }
+
+    .info {
+        font-size: 14px;
+        margin-top: 40px;
+    }
 }
